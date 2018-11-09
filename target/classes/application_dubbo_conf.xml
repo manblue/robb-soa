@@ -21,7 +21,7 @@
 	<!-- 分组注册 <dubbo:registry id="chinaRegistry" protocol="zookeeper" address="10.20.153.10:2181" group="china" /> <dubbo:registry id="intlRegistry" protocol="zookeeper" address="10.20.153.10:2181" group="intl" 
 		/> -->
 
-	<dubbo:registry id="businessRegistry" protocol="zookeeper" address="192.168.0.126:2181" client="curator" group="robb" timeout="10000"/>
+	<dubbo:registry id="businessRegistry" protocol="zookeeper" address="192.168.2.203:2181" client="curator" group="robb" timeout="100000"/>
 
 	<dubbo:protocol id="soa-dubbo" name="dubbo" host="127.0.0.1" port="-1" threadpool="fixed" threads="100" serialization="dubbo" register="true"  />
 
