@@ -8,7 +8,8 @@ public class Test {
 
 	public static void main(String[] args) {
 		InputStream is = Test.class.getResourceAsStream("/com/robb/service/impl/RobbServiceImpl.class");
-		Server2DubboServer.buildDubboServerClass(is);
+		Server2DubboServer handler = Server2DubboServer.getHandler();
+		handler.buildDubboServerClass(is);
 	}
 
 }

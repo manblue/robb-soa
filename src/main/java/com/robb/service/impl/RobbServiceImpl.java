@@ -22,5 +22,11 @@ public class RobbServiceImpl implements RobbService {
 		logger.info("---{} {} {}", getClass(),"add",name);
 		return robbDao.add(name);
 	}
+
+	public void update(String name) {
+		logger.info("---{} {} {}", getClass(),"update",name);
+		robbDao.add(name);
+		
+	}
 	
 }
