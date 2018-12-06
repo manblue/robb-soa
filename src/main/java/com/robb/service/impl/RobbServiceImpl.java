@@ -19,12 +19,12 @@ public class RobbServiceImpl implements RobbService {
 	private IRobbDao robbDao;
 	
 	public String add(String name) {
-		logger.info("---{} {} {}", getClass(),"add",name);
+//		logger.info("---{} {} {}", getClass(),"add",name);
 		return robbDao.add(name);
 	}
 
 	public void update(String name) {
-		logger.info("---{} {} {}", getClass(),"update",name);
+//		logger.info("---{} {} {}", getClass(),"update",name);
 		robbDao.add(name);
 		
 	}
