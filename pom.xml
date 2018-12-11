@@ -1,30 +1,31 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>robb.soa</groupId>
-  <artifactId>robb-soa</artifactId>
-  <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>robb-soa Maven Webapp</name>
-  <url>http://maven.apache.org</url>
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-    	<groupId>robb.data</groupId>
-    	<artifactId>robb-data</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-    	<groupId>robb.service</groupId>
-    	<artifactId>robb-service</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
-    </dependency>
-    		<dependency>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>robb.soa</groupId>
+	<artifactId>robb-soa</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>robb-soa Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>robb.data</groupId>
+			<artifactId>robb-data</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>robb.service</groupId>
+			<artifactId>robb-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<!-- 
+		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>dubbo</artifactId>
 			<version>2.5.3</version>
@@ -38,14 +39,15 @@
 					<artifactId>netty</artifactId>
 				</exclusion>
 			</exclusions>
-	</dependency>
-    		<dependency>
-    			<groupId>robb-plugin-auto-dubbo-server</groupId>
-    			<artifactId>robb-plugin-auto-dubbo-server</artifactId>
-    			<version>0.0.1-SNAPSHOT</version>
-    		</dependency>
-  </dependencies>
-  <build>
-    <finalName>robb-soa</finalName>
-  </build>
+		</dependency>
+		 -->
+		<dependency>
+			<groupId>robb-plugin-auto-dubbo-server</groupId>
+			<artifactId>robb-plugin-auto-dubbo-server</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>robb-soa</finalName>
+	</build>
 </project>
